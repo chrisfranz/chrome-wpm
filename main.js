@@ -40,7 +40,7 @@ function timer() {
 
 // Main Container
 const container = document.createElement('div');
-container.id = 'container';
+container.id = 'zzx-container';
 document.body.appendChild(container);
 
 // Row Div Containers
@@ -54,28 +54,32 @@ container.appendChild(midRow);
 
 const botRow = document.createElement('div');
 botRow.className = 'row';
-botRow.id = 'botRow';
+botRow.id = 'zzx-botRow';
 container.appendChild(botRow);
 
 // Place Text In Top Row
 const wpmLabel = document.createElement('p');
+wpmLabel.id = 'zzx-p'
 wpmLabel.innerHTML = 'WORDS PER MINUTE';
 topRow.appendChild(wpmLabel);
 
 // Place Main Number in Middle Row
 const wpmNumber = document.createElement('h1');
+wpmNumber.id = 'zzx-h1'
 wpmNumber.innerHTML = 0;
 midRow.appendChild(wpmNumber)
 
 // Place Max And Average In Bottom Row
 const maxWpmElement = document.createElement('h3');
+maxWpmElement.className = 'zzx-h3'
+maxWpmElement.id = 'zzx-max';
 maxWpmElement.innerHTML = 'Max: ' + 0;
-maxWpmElement.id = 'max';
 botRow.appendChild(maxWpmElement);
 
 const weightedAvg = document.createElement('h3');
+maxWpmElement.className = 'zzx-h3'
+weightedAvg.id = 'zzx-weighted';
 weightedAvg.innerHTML = 'Avg: ' + 0;
-weightedAvg.id = 'weighted';
 botRow.appendChild(weightedAvg);
 
 // invokes wpm function on page load
