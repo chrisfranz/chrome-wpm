@@ -101,9 +101,9 @@ botRow.appendChild(weightedAvg);
 // Add bell sound
 const bell = document.createElement('audio');
 bell.id = 'audio';
-bell.src = '/Users/chrisfranz/Desktop/Codesmith/Code/02/chrome-extension-wpm/chime.mp3';
+// bell.src = '/Users/chrisfranz/Desktop/Codesmith/Code/02/chrome-extension-wpm/chime.mp3';
 bell.setAttribute('autoplay', 'false');
-document.body.appendChild(bell);
+container.appendChild(bell);
 
 // plays bell sound
 const playSound = () => {
