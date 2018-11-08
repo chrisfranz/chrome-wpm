@@ -1,50 +1,50 @@
 #zzx-container {
-  border: 1px solid rgb(71, 71, 71);
-  border-radius: 10px;
-  box-shadow: 3px 3px 10px;
-  height: 150px;
-  width: 250px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(34, 32, 32);
-  background-color: rgb(238, 46, 46);
-  opacity: .9;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 1rem;
-  align-self: flex-end;
+  border: 1px solid rgb(71, 71, 71) !important;
+  margin: 10px !important;
+  border-radius: 10px !important;
+  box-shadow: 3px 3px 10px !important;
+  height: 150px !important;
+  width: 250px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: rgb(34, 32, 32) !important;
+  background-color: rgb(238, 46, 46) !important;
+  opacity: .9 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  bottom: 1rem !important;
+  align-self: flex-end !important;
 }
 
 #zzx-p {
-  margin: 5px;
-  letter-spacing: 2px;
+  margin: 5px !important;
+  letter-spacing: 2px !important;
 }
 
 #zzx-botRow {
-  display: flex;
-  flex-direction: row;
+  display: flex !important;
+  flex-direction: row !important;
 }
 
 #zzx-h1 {
-
-  margin: -5px;
-  font-size: 88px;
-  font-weight: 450;
+  margin: -5px !important;
+  font-size: 88px !important;
+  font-weight: 450 !important;
 }
 
 .zzx-h3 {
-  margin: 0;
-  font-weight: 500;
-  letter-spacing: 2px;
+  margin: 0 !important;
+  font-weight: 500 !important;
+  letter-spacing: 2px !important;
 }
 
 #zzx-max {
-  padding: 0 25px 5px 0;
+  padding: 0 25px 5px 0 !important;
 }
 
 #zzx-weighted {
-  padding: 0 0 5px 25px;
+  padding: 0 0 5px 25px !important;
 }

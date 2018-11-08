@@ -39,45 +39,45 @@ function timer() {
 // CREATE AND APPEND VISUAL ELEMENTS
 
 // Main Container
-const container = document.createElement('div');
+const container = document.createElement('zdiv');
 container.id = 'zzx-container';
 document.body.appendChild(container);
 
 // Row Div Containers
-const topRow = document.createElement('div');
+const topRow = document.createElement('zdiv');
 topRow.className = 'row';
 container.appendChild(topRow);
 
-const midRow = document.createElement('div');
+const midRow = document.createElement('zdiv');
 midRow.className = 'row';
 container.appendChild(midRow);
 
-const botRow = document.createElement('div');
+const botRow = document.createElement('zdiv');
 botRow.className = 'row';
 botRow.id = 'zzx-botRow';
 container.appendChild(botRow);
 
 // Place Text In Top Row
-const wpmLabel = document.createElement('p');
+const wpmLabel = document.createElement('z');
 wpmLabel.id = 'zzx-p'
 wpmLabel.innerHTML = 'WORDS PER MINUTE';
 topRow.appendChild(wpmLabel);
 
 // Place Main Number in Middle Row
-const wpmNumber = document.createElement('h1');
+const wpmNumber = document.createElement('z1');
 wpmNumber.id = 'zzx-h1'
 wpmNumber.innerHTML = 0;
 midRow.appendChild(wpmNumber)
 
 // Place Max And Average In Bottom Row
-const maxWpmElement = document.createElement('h3');
+const maxWpmElement = document.createElement('z3');
 maxWpmElement.className = 'zzx-h3'
 maxWpmElement.id = 'zzx-max';
 maxWpmElement.innerHTML = 'Max: ' + 0;
 botRow.appendChild(maxWpmElement);
 
-const weightedAvg = document.createElement('h3');
-maxWpmElement.className = 'zzx-h3'
+const weightedAvg = document.createElement('z3');
+weightedAvg.className = 'zzx-h3'
 weightedAvg.id = 'zzx-weighted';
 weightedAvg.innerHTML = 'Avg: ' + 0;
 botRow.appendChild(weightedAvg);
