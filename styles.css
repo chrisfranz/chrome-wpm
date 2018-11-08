@@ -11,7 +11,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 1rem;
+  align-self: flex-end;
 }
 
 p {
