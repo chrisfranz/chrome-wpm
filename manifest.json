@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "WPM",
+  "version": "1.0",
+  "description": "Extension to track your typing speed in the browser",
+  "content_scripts": [
+    {
+      "js": ["jquery.min.js", "./main.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
