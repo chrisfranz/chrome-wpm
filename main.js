@@ -80,5 +80,3 @@ botRow.appendChild(weightedAvg);
 
 // invokes wpm function on page load
 document.addEventListener("load", timer());
-
-

@@ -3,9 +3,11 @@
   "name": "WPM",
   "version": "1.0",
   "description": "Extension to track your typing speed in the browser",
+  "persistent": false,
   "content_scripts": [
     {
-      "js": ["jquery.min.js", "./main.js"],
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["main.js"],
       "css": ["styles.css"]
     }
   ]
